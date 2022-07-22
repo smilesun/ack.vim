@@ -27,7 +27,7 @@ if !exists("g:ack_apply_lmappings")
 endif
 
 let s:ack_mappings = {
-      \ "t": "<C-W><CR><C-W>T",
+      "\ "t": "<C-W><CR><C-W>T", " diable shortcut t such that the same file will always occur once in the tabs
       \ "T": "<C-W><CR><C-W>TgT<C-W>j",
       \ "o": "<CR>",
       \ "O": "<CR><C-W>p<C-W>c",
